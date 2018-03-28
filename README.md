@@ -10,5 +10,5 @@ python3 main_file.py -h
 '''
 This command will give you further information
 
-###Currently ciphers available are :
+### Currently ciphers available are :
 * Morse code
