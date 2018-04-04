@@ -36,9 +36,16 @@ def morse(message):
         '8':'---..',
         '9':'----.',
         '0':'-----',
+        '.':'.-.-.-',
+        ',':'---...',
+        ':':'---...',
+        '?':'..--..',
+        '/':'-..-.',
+        '=':'-...-',
+        '"':'.-..-.'
     }
     new_message=''
     for i in message:
-        if(i!=' ' and i!='\n' and i!='.' and i!='!' ):
+        if(i!=' ' and i!='\n' and i!='!' ):
             new_message+=morsed[i.upper()]+' '
     return new_message
